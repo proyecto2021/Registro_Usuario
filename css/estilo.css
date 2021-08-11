@@ -1,0 +1,139 @@
+:root{
+    --fondoTitulo: rgb(255,242,204);
+    --textoTilulo: rgb(0, 131, 2);
+    --fondoBody:   rgb(220, 220, 220);
+    --fondoTrabajo: rgb(41, 37, 37);
+    --fondoTituloform: rgb(203, 107, 56);
+    --colorTituloform:  rgb(255, 255, 255);
+}
+
+
+body{
+    background-color: var(--fondoBody);
+    padding-top: 2vh;
+}
+
+#contenedorGeneral{
+    max-width: 700px;
+}
+
+#tituloGeneral{
+    background-color: var(--fondoTitulo);
+    color: var(--textoTilulo);
+    text-align: center;
+    font-family:'kanit', sans-serif;
+    max-height: 150px;
+}
+
+#tituloGeneral h1{
+    margin-top: 4%;
+    font-size: 1.5em;     
+}
+
+#imgTitulo{
+    width: 130px;
+}
+
+#areaTrabajo{
+    /*min-height: 60vh;*/
+    background-color: var(--fondoTrabajo);
+}
+
+#contenido{
+    width: 60%;
+    margin: 16% auto;
+    border: 8px solid var(--textoTilulo);
+    color: var(--svg);
+    font-size: 1.1em;
+    padding-top: 20px;
+    
+}
+.input-group-text {
+    color: rgb(245, 245, 224);
+    background-color:rgb(203, 233, 119);
+    border: 1px;
+}
+
+ 
+.btn{
+    background-color: var(--boton);
+    color: var(--textoTilulo);
+    width: 50%;
+    padding: 5px;
+    border-radius: 0;
+    border: 0;
+}
+
+.form-control{
+    width: 280px;
+    padding: 1.1px;
+    line-height:100%;
+    background-color: rgb(41, 37, 37);
+    border: 1px solid #008302;
+    
+}
+.form-select{
+    background-color: rgb(41, 37, 37);
+    color: rgb(117, 114, 114);
+    border: 1px solid #008302;
+}
+.row {
+    --bs-gutter-x: 0.0rem;
+   
+}
+
+#contFormulario{
+    padding: 0;
+    margin: 4% 8%;
+    width: 84%;
+}
+
+#contTituloform{
+    background-color: var(--fondoTituloform);
+    height: 45px;
+    color: var(--colorTituloform);
+    text-align: center;
+    font-family:'kanit', sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+#contInputsForm{
+    border:  6px solid var(--textoTilulo);
+    margin-top: 7px;
+    padding: 20px 30px;
+}
+
+
+/********* RESPONSIVE *****************************************/
+
+@media (min-width: 544px) {
+    #tituloGeneral h1{
+ 
+        font-size: 1.8em; 
+    }    
+}
+
+@media (min-width: 768px) {
+    #tituloGeneral h1{
+ 
+        font-size: 2.3em; 
+    }    
+}
+
+/*
+@media (min-width: 992px) {
+    #tituloGeneral h1{
+        margin-top: 25px;
+        font-size: 3.0em; 
+    }    
+}
+
+@media (min-width: 1200px) {
+    #tituloGeneral h1{
+        margin-top: 30px;
+        font-size: 4.0em; 
+    } 
+}
+*/
+
