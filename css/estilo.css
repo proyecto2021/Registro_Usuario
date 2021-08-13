@@ -48,8 +48,12 @@ body{
     padding-top: 20px;
     
 }
+
+.img-group-form{
+    width: 45px;
+}
 .input-group-text {
-    color: rgb(245, 245, 224);
+    color: rgb(36, 36, 25);
     background-color:rgb(203, 233, 119);
     border: 1px;
 }
@@ -77,6 +81,12 @@ body{
     color: rgb(117, 114, 114);
     border: 1px solid #008302;
 }
+.form-control:focus{
+     background-color:  rgb(41, 37, 37);
+     color: white;
+
+}
+
 .row {
     --bs-gutter-x: 0.0rem;
    

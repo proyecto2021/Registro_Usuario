@@ -2561,7 +2561,7 @@ textarea.form-control-lg {
   }
 }
 .form-range::-moz-range-thumb:active {
-  background-color: #b6d4fe;
+  background-color: #0e1013;
 }
 .form-range::-moz-range-track {
   width: 100%;
@@ -2682,7 +2682,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #f8f7f7;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -2694,6 +2694,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
+  background-color: black;
 }
 
 .input-group-sm > .form-control,
